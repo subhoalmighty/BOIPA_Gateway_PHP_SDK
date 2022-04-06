@@ -1,24 +1,10 @@
 {
-    "name": "payments/php_sdk",
-    "type": "library",
-    "version": "1.0.0",
+    "name": "subhoalmighty/boipa_gateway_php_sd",
     "description": "PHP Implementation of the Payments API",
-    "license": "",
-    "extra": [
-        {
-            "engine": "Payments PHP SDK"
-        }
-    ],
-    "minimum-stability": "stable",
-    "support": {},
-    "authors": [
-	    {
-            "name": "peter",
-            "email": "peter.shang@nodus.com"
-        }
-	],
+    "version": "1.0.0",
+    "type": "library",
     "require": {
-        "php": ">=5.6.0",
+        "php": "5.6.0",
         "ext-curl": "*",
         "ext-hash": "*"
     },
@@ -29,5 +15,12 @@
         "classmap": [
             "lib/"
         ]
-    }
+    },
+    "authors": [
+        {
+            "name": "Subrata Mondal",
+            "email": "subhoalmighty@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
